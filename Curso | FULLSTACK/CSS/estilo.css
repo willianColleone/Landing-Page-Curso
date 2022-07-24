@@ -1,0 +1,317 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+html {
+    overflow: hidden;
+}
+
+body{
+    background-image: linear-gradient(5deg, #04044a 8%, #021043 90%);
+    height: 100vh;
+    color: white;
+}
+
+/* ---------- CABEÇALHO DO SITE ----------*/
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 18px;
+    font-family: 'Russo One', sans-serif;
+}
+
+.title i {
+    margin-right: 8px;
+    font-size: 25px
+}
+
+.title h3 {
+    margin-left: 30px;
+    font-size: 15px;
+    font-family: 'Russo One', sans-serif;
+}
+
+.title span {
+    font-size: 18px;
+    font-family: 'Monoton', cursive;
+    color: #b1b1f8;
+    margin-right: 5px;
+}
+
+header nav {
+    margin-right: 50px;
+}
+
+header li {
+    display: inline-block;
+    margin: 20px;
+}
+
+header a {
+    color: white;
+    transition: 500ms all;
+    padding: 5px;
+}
+
+header a:hover {
+    color: #b1b1f8;
+}
+
+
+
+
+
+/*------------ CORPO DO SITE ------------------*/
+
+main {
+    display: flex;
+    flex-direction: row;
+    margin: 50px;
+}
+
+/*---------------- CONTEUDO 1 -------------*/
+
+
+aside .title2 span {
+    font-family: 'Russo One', sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    color: #7a7afd
+}
+
+aside .title2 {
+    font-size: 25px;
+    font-family: 'Russo One', sans-serif;
+
+}
+
+aside p {
+    font-family: 'Sora', sans-serif;
+    text-indent: 5px;
+    text-align: justify;
+    margin-top: 10px;
+}
+
+aside .curso {
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+aside .linguagen {
+    display: flex;
+    flex-direction: row;
+    justify-content:left;
+    text-align: center;
+}
+
+aside .linguagen2 {
+    display: flex;
+    flex-direction: row;
+    justify-content:left;
+    text-align: center;
+}
+
+aside .icon1 {
+    border-radius: 10px;
+    margin: 5px;
+    padding: 10px;
+    box-shadow: 5.8px 4.7px 4.6px rgba(0, 0, 0, 0.034),
+    11.9px 9.6px 15.6px rgba(0, 0, 0, 0.049),
+    19.5px 15.7px 38.5px rgba(0, 0, 0, 0.061),
+    32.3px 26px 66.5px rgba(0, 0, 0, 0.076),
+    72px 58px 80px rgba(0, 0, 0, 0.11);
+    height: 80px;
+}
+
+aside .icon1:hover {
+    transform: translate(-7px, -17px) scale(1.4, 1.4);
+    transition: 500ms all;
+}
+
+aside .icon {
+    width: 45px;
+    margin: 10px 12px 8px 10px;
+}
+
+aside button {
+    margin-left: 10px;
+    margin-top: 37px;
+    width: 157px;
+    height: 53px;
+    border: none;
+    border-radius: 21px;
+    font-size: 20px;
+    background-color: #7a7afd;
+    box-shadow: 5.8px 4.7px 4.6px rgba(0, 0, 0, 0.034),
+    11.9px 9.6px 15.6px rgba(0, 0, 0, 0.049),
+    19.5px 15.7px 38.5px rgba(0, 0, 0, 0.061),
+    32.3px 26px 66.5px rgba(0, 0, 0, 0.076),
+    72px 58px 80px rgba(0, 0, 0, 0.11);
+}
+
+aside button a {
+    font-family: 'Russo One', sans-serif;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+}
+
+aside button:hover {
+    transform: translate(1px, 1px) scale(1.4, 1.4);
+    transition: 500ms all;
+    background-color: #001973;
+}
+
+
+/* ---------------- CONTEÚDO 2 ------------------*/
+
+
+article .prog {
+    width: 860px;
+    height: 760px;
+}
+
+
+/* ------------------------------------------------- PAGINA 1 --------------------------------------------------------------*/
+
+.conteudo {
+    margin: 0;
+}
+
+
+.back a i {
+    margin: 20px 0px 0px 50px;
+    font-size: 40px;
+}
+
+.back a {
+    color: white;
+}
+
+.container {
+    width: 800px;
+}
+
+.container .prog {
+    width: 100%;
+}
+
+.content i {
+    margin-top: 25px;
+    font-size: 70px;
+}
+
+
+article .content {
+    margin: 0px 150px 30px 0px;
+}
+
+article .content span {
+    font-family: 'Russo One', sans-serif;
+    font-size: 60px;
+    font-weight: bold;
+    color: #7a7afd
+}
+
+article .content h1 {
+    font-size: 50px;
+    font-family: 'Russo One', sans-serif; 
+}
+
+article p {
+    font-family: 'Sora', sans-serif;
+    text-align: justify;
+    line-height: 25px;
+    margin-top: 12px;
+    font-size: 19px;
+}
+
+
+form legend {
+    font-size: 25px;
+    font-family: 'Russo One', sans-serif; 
+}
+
+form input {
+    width: 70%;
+    height: 30px;
+    font-size: 18px;
+    margin: 10px;
+    padding: 9px;
+    border: none;
+    border-radius: 22px;
+    font-family: 'Sora', sans-serif;
+}
+
+.name1, .email, .phone {
+    font-size: 25px;
+}
+
+form .check {
+    width: 20px;
+    height: 20px;
+    margin: 5px 10px 10px 20px;
+}
+
+form label {
+    font-size: 15px;
+    font-family: 'Sora', sans-serif;
+}
+
+.button {
+    font-family: 'Russo One', sans-serif; 
+    color: white;
+    margin-left: 15px;
+    margin-top: 20px;
+    width: 150px;
+    height: 50px;
+    border: none;
+    border-radius: 21px;
+    font-size: 20px;
+    background-color: #7a7afd;
+    box-shadow: 5.8px 4.7px 4.6px rgba(0, 0, 0, 0.034),
+    11.9px 9.6px 15.6px rgba(0, 0, 0, 0.049),
+    19.5px 15.7px 38.5px rgba(0, 0, 0, 0.061),
+    32.3px 26px 66.5px rgba(0, 0, 0, 0.076),
+    72px 58px 80px rgba(0, 0, 0, 0.11);
+    transition: width .5s;
+    cursor: pointer;
+    position: relative;
+}
+
+.icon2 {
+    opacity: 0;
+    font-size: 0;
+}
+
+.button:focus {
+    width: 75px;
+    height: 60px;
+    transition: witdh 500ms all;
+    background-color: #7a7afd;
+    border-radius: 20px;
+}
+
+.button:focus .text {
+    opacity: 0;
+    font-size: 0;
+}
+
+
+.button:focus .icon2 {
+    opacity: 1;
+    transition-delay: 500ms;
+    font-size: 38px;
+}
+
+.button:hover {
+    cursor: pointer;
+    transform: translate(1px, 1px) scale(1.4, 1.4);
+    transition: 500ms all;
+    background-color: #0124a2;
+}
